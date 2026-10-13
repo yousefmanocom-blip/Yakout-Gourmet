@@ -165,6 +165,16 @@ const SIDES = [{id:'fries',ar:'بطاطس',en:'Fries'},{id:'basarya',ar:'بسا�
 // white or red sauce for the soups
 const SOUP_IDS = ['so1','so2'];
 const SOUP = [{id:'white',ar:'وايت صوص',en:'White sauce'},{id:'red',ar:'ريد صوص',en:'Red sauce'}];
+// fish types the customer can choose from (used only for items listed in FISH_PICK)
+const FISH = [
+  {id:'bory',   ar:'بورى',  en:'Mullet'},
+  {id:'bulty',  ar:'بلطى',  en:'Tilapia'},
+  {id:'dnis',   ar:'دنيس',  en:'Sea Bream'},
+  {id:'qaroos', ar:'قاروص', en:'Sea Bass'}
+];
+// item id : how many fish types the customer picks. Empty = no fish choice anywhere.
+// example: { f1: 2 }  -> the Harifa tray asks the customer to choose 2 fish types
+const FISH_PICK = {};
 // sauces: how many the customer picks per item. Trays are optional (empty = the kitchen picks a mix).
 // EDIT the sauce names to match your real sauces.
 const SAUCES = [
