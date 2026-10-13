@@ -117,7 +117,7 @@ const MENU = {
     {id:'a3',cat:'appetizers',img:'fc.WebP',ar:'فيش اند شيبس',en:'Fish&Chips',dAr:'',dEn:'',price:120},
     {id:'a4',cat:'appetizers',img:'btats.WebP',ar:'بطاطس',en:'French Fries',dAr:'',dEn:'',price:45},
 
-    {id:'p1',cat:'pasta',img:'mg.WebP',ar:'مكرونة جمبرى',en:'Shrimp pasta',dAr:'مكرونة بالجمبرى',dEn:'Pasta with shrimp',price:210},
+    {id:'p1',cat:'pasta',img:'mg.WebP',ar:'مكرونة جمبرى',en:'Shrimp pasta',dAr:'مكرونة بالجمبرى',dEn:'Pasta with shrimp',price:240},
     {id:'p2',cat:'pasta',img:'ms.WebP',ar:'مكرونة ميكس',en:'Mix pasta',dAr:'مكرونة جمبرى وسبيط',dEn:'Pasta with shrimp and squid',price:240},
     {id:'p3',cat:'pasta',img:'bkbk.WebP',ar:'مبكبكة جمبرى (1)',en:'Shrimp Mbakbaka (1)',dAr:'فرد واحد',dEn:'For one person',price:220},
     {id:'p4',cat:'pasta',img:'bkbk.WebP',ar:'مبكبكة جمبرى (2)',en:'Shrimp Mbakbaka (2)',dAr:'فردين',dEn:'For two persons',price:410},
