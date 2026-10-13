@@ -109,7 +109,7 @@ const MENU = {
     {id:'s4',cat:'sandwitch',img:'mixsandwitch.WebP',ar:'سندوتش ميكس',en:'Mix Sandwich',dAr:'سندوتش جمبرى وسبيط مشويين او مقليين',dEn:'Shrimp & Squid Sandwich (Fried or Grilled)',price:150},
     {id:'s5',cat:'sandwitch',img:'fishroesandwitch.WebP',ar:'سندوتش بطارخ',en:'Fish Roe Sandwich',dAr:'سندوتش بطارخ مشوية او مقلية',dEn:'Fish Roe Sandwich (Fried or Grilled)',price:150},
 
-    {id:'f1',cat:'family',img:'harifa.WebP',ar:'صنية الحريفة',en:'Harifa Spicy Tray',dAr:'سمكتين حسب اختيارك +جندوفلى+سبيط+بطاطس+بساريا+6صوص+ارز',dEn:'Two Fish (Your Choice) + Clams + Squid + French Fries + Basarya + 6 Sauces + Rice',price:800},
+    {id:'f1',cat:'family',img:'harifa.WebP',ar:'صنية الحريفة',en:'Harifa Spicy Tray',dAr:'سمكتين بورى +جندوفلى+سبيط+بطاطس+بساريا+6صوص+ارز',dEn:'Two Mullet Fish + Clams + Squid + French Fries + Basarya + 6 Sauces + Rice',price:800},
     {id:'f2',cat:'family',img:'monsters.WebP',ar:'صنية الوحوش',en:'El-Wohoush Tray (Monster Tray)',dAr:'4 بورى+جمبرى+سبيط+جندوفلى+بطاطس او بساريا+ارز+8صوص',dEn:'4 Mullet Fish + Shrimp + Squid + Clams + French Fries or Basarya + Rice + 8 Sauces',price:1590},
     
     {id:'a1',cat:'appetizers',img:'bsarya.WebP',ar:'بساريا',en:'Basarya (Whitebait)',dAr:'',dEn:'',price:50},
@@ -179,14 +179,6 @@ const SAUCES = [
 ];
 const SAUCE_N = { m1:2,m2:2,m3:2,m4:2,m5:2,m6:2,m7:2,m8:2, d1:1,d2:1,d3:1, f1:6, f2:8 };
 const SAUCE_OPTIONAL = ['f1','f2'];
-// trays where the customer picks the fish type  ->  how many fish to pick
-const FISH_PICK = { f1: 2 };
-const FISH = [
-  {id:'bory',  ar:'بورى',  en:'Mullet'},
-  {id:'bulty', ar:'بلطى',  en:'Tilapia'},
-  {id:'dnis',  ar:'دنيس',  en:'Sea Bream'},
-  {id:'qaroos',ar:'قاروص', en:'Sea Bass'}
-];
 // drinks: sugar + milk choice / sugar only choice (one size only, no sizes)
 const SUGAR_MILK_IDS = ['k1','k2','k4','k9','k11'];
 const SUGAR_ONLY_IDS = ['k3','k5','k6','k7','k8','k10','k12','k13','j1','j2','j3','j4','j5','j8'];
